@@ -3,4 +3,8 @@ public class PetrolEngine{
     public void start(){
         System.out.println("Petrole Engine Starting.....");
     }
+
+    public void stop(){
+        System.out.println("Petrole Engine Stoping.....");
+    }
 }

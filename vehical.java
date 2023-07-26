@@ -3,8 +3,10 @@ public class vehical {
     public static void main(String[] args) {
         PetroleEngine pE = new PetroleEngine();
         pE.start();
+        pE.stop();
 
         DiselEngine dE = new DiselEngine();
-        pE.start();
+        dE.start();
+        dE.stop();
     }
 }
