@@ -8,5 +8,8 @@ public class vehical {
         DiselEngine dE = new DiselEngine();
         dE.start();
         dE.stop();
+
+        ElectricEngine eE = new ElectricEngine();
+        eE.start();
     }
 }
